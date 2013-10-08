@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Choose NFL Team</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/chooseteam.css">
+<script src="JS/chooseteam.js"></script>
+<script>
+window.onresize = function() {
+    adjustPage();
+}
+</script>
+</head>
+
+<body style="overflow-x:hidden">
+<!-- Top menu bar to be used on each page. -->
+<div id="topbar" style="overflow:hidden">
+	<!-- Small div used to contain company title, set hover color, and add link functionality. -->
+	<div id="companytitlediv">
+		<p id="companytitle">Sports Bar</p>
+    </div>
+    <!-- All portions of the top bar which should adjust with screen resizing. -->
+    <div id="adjustabletopbar">
+    	<form method="get" action="/search" id="search">
+  			<input id="searchbar" name="q" type="text" size="40" placeholder="Search..." 
+            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'"/>
+		</form>
+       <div id="signindiv">
+       		<p id="signintext">Sign In</p>
+       </div>
+       <div id="registerdiv">
+           <p id="registertext">Register</p>
+       </div>
+    </div>
+</div>
+<div id="navspecificsport" style="overflow:hidden">
+	<div id="navspecificsport1"><p id="navspecificsport1text">Scores</p></div>
+    <div id="navspecificsport2"><p id="navspecificsport2text">Schedule</p></div>
+    <div id="navspecificsport3"><p id="navspecificsport3text">Standings</p></div>
+    <div id="navspecificsport4"><p id="navspecificsport4text">Stats</p></div>
+    <div id="navspecificsport5"><p id="navspecificsport5text">Trades</p></div>
+    <div id="navspecificsport6"><p id="navspecificsport6text">Choose NFL Team</p></div>
+    <div id="adjustablenavspecificbar">
+    	<div id="navspecificrumors"><p id="navspecificrumorstext">Rumors</p></div>
+    	<div id="navspecificfantasy"><p id="navspecificfantasytext">Fantasy</p></div>
+    	<div id="navspecifictickets"><p id="navspecificticketstext">Tickets</p></div>
+    </div>
+</div>
+<div id="ubar" style="overflow:hidden">
+	<div id="ubartitlediv">
+    	<p id="ubartitletext">U-BAR</p>
+    </div>
+    <div id="ubarnormalbuttonleft" onMouseOver="toggleTrigger(0)" onMouseOut="toggleTrigger(1)"></div>
+    <img id="ubarlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="ubarnormalbuttonright" onMouseOver="toggleTrigger(2)" onMouseOut="toggleTrigger(3)"></div>
+    <img id="ubarlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="ubarcontent">
+    	<img id="ubarpats" src="Images/UBar/patsubar.png">
+       <img id="ubarrobgronkowski" src="Images/UBar/robgronkowski.png">
+       <img id="ubartombrady" src="Images/UBar/tombrady.png">
+       <img id="ubarbillbelichick" src="Images/UBar/billbelichick.png">
+       <img id="ubarzachsudfeld" src="Images/UBar/zachsudfeld.png">
+       <img id="ubarredsox" src="Images/UBar/redsox.png">
+       <img id="ubardustinpedroia" src="Images/UBar/dustinpedroia.png">
+       <img id="ubarmikenapoli" src="Images/UBar/mikenapoli.png">
+       <img id="ubarnhl" src="Images/UBar/nhl.png">
+       <img id="ubarbostonbruins" src="Images/UBar/bostonbruins.png">
+       <img id="ubarbostonceltics" src="Images/UBar/bostonceltics.png">
+       <div id="ubardarkplus"></div>
+    </div>
+    <!--<div id="ubarcorrection"></div>-->
+</div>
+<div id="pagebar" style="overflow:hidden">
+	<p id="pagebartext">CHOOSE NFL TEAM</p>
+</div>
+<div id="afcNorth" style="overflow:hidden">
+    <div id="afcNorthnormalbuttonleft" onMouseOver="toggleTrigger(4)" onMouseOut="toggleTrigger(5)"></div>
+    <img id="afcNorthlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="afcNorthcontent">
+    	<img id="afcNorth1" src="Images/afcNorth/afcNorth1.jpg">
+       <img id="afcNorth2" src="Images/afcNorth/afcNorth2.jpg">
+       <img id="afcNorth3" src="Images/afcNorth/afcNorth3.jpg">
+       <img id="afcNorth4" src="Images/afcNorth/afcNorth4.jpg">
+    </div>
+    <div id="adjustableafcNorth">
+    	<div id="afcNorthnormalbuttonright" onMouseOver="toggleTrigger(6)" onMouseOut="toggleTrigger(7)"></div>
+    	<img id="afcNorthlightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="afcNorthtitlediv">
+    		<p id="afcNorthtitletext1">AFC</p>
+           <p id="afcNorthtitletext2">NORTH</p>
+    	</div>
+    </div>
+    <!--<div id="afcNorthcorrection"></div>-->
+</div>
+<div id="nfcNorth" style="overflow:hidden">
+	<div id="nfcNorthtitlediv">
+    	<p id="nfcNorthtitletext1">NFC</p>
+        <p id="nfcNorthtitletext2">NORTH</p>
+    </div>
+    <div id="nfcNorthnormalbuttonleft" onMouseOver="toggleTrigger(8)" onMouseOut="toggleTrigger(9)"></div>
+    <img id="nfcNorthlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="nfcNorthnormalbuttonright" onMouseOver="toggleTrigger(10)" onMouseOut="toggleTrigger(11)"></div>
+    <img id="nfcNorthlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="nfcNorthcontent">
+    	<img id="nfcNorth1" src="Images/nfcNorth/nfcNorth1.jpg">
+       <img id="nfcNorth2" src="Images/nfcNorth/nfcNorth2.jpg">
+       <img id="nfcNorth3" src="Images/nfcNorth/nfcNorth3.png">
+       <img id="nfcNorth4" src="Images/nfcNorth/nfcNorth4.jpg">
+    </div>
+    <!--<div id="nfcNorthcorrection"></div>-->
+</div>
+<div id="afcSouth" style="overflow:hidden">
+    <div id="afcSouthnormalbuttonleft" onMouseOver="toggleTrigger(12)" onMouseOut="toggleTrigger(13)"></div>
+    <img id="afcSouthlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="afcSouthcontent">
+    	<img id="afcSouth1" src="Images/afcSouth/afcSouth1.jpg">
+       <img id="afcSouth2" src="Images/afcSouth/afcSouth2.jpg">
+       <img id="afcSouth3" src="Images/afcSouth/afcSouth3.png">
+       <img id="afcSouth4" src="Images/afcSouth/afcSouth4.jpg">
+    </div>
+    <div id="adjustableafcSouth">
+    	<div id="afcSouthnormalbuttonright" onMouseOver="toggleTrigger(14)" onMouseOut="toggleTrigger(15)"></div>
+    	<img id="afcSouthlightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="afcSouthtitlediv">
+    		<p id="afcSouthtitletext1">AFC</p>
+           <p id="afcSouthtitletext2">SOUTH</p>
+    	</div>
+    </div>
+</div>
+<div id="nfcSouth" style="overflow:hidden">
+	<div id="nfcSouthtitlediv">
+    	<p id="nfcSouthtitletext1">NFC</p>
+        <p id="nfcSouthtitletext2">SOUTH</p>
+    </div>
+    <div id="nfcSouthnormalbuttonleft" onMouseOver="toggleTrigger(16)" onMouseOut="toggleTrigger(17)"></div>
+    <img id="nfcSouthlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="nfcSouthnormalbuttonright" onMouseOver="toggleTrigger(18)" onMouseOut="toggleTrigger(19)"></div>
+    <img id="nfcSouthlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="nfcSouthcontent">
+    	<img id="nfcSouth1" src="Images/nfcSouth/nfcSouth1.png">
+       <img id="nfcSouth2" src="Images/nfcSouth/nfcSouth2.gif">
+       <img id="nfcSouth3" src="Images/nfcSouth/nfcSouth3.png">
+       <img id="nfcSouth4" src="Images/nfcSouth/nfcSouth4.jpg">
+    </div>
+</div>
+<div id="afcEast" style="overflow:hidden">
+    <div id="afcEastnormalbuttonleft" onMouseOver="toggleTrigger(20)" onMouseOut="toggleTrigger(21)"></div>
+    <img id="afcEastlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="afcEastcontent">
+    	<img id="afcEast1" src="Images/afcEast/afcEast1.jpg">
+       <img id="afcEast2" src="Images/afcEast/afcEast2.gif">
+       <img id="afcEast3" src="Images/afcEast/afcEast3.jpg">
+       <img id="afcEast4" src="Images/afcEast/afcEast4.jpg">
+    </div>
+    <div id="adjustableafcEast">
+    	<div id="afcEastnormalbuttonright" onMouseOver="toggleTrigger(22)" onMouseOut="toggleTrigger(23)"></div>
+    	<img id="afcEastlightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="afcEasttitlediv">
+    		<p id="afcEasttitletext1">AFC</p>
+           <p id="afcEasttitletext2">EAST</p>
+    	</div>
+    </div>
+</div>
+<div id="nfcEast" style="overflow:hidden">
+	<div id="nfcEasttitlediv">
+    	<p id="nfcEasttitletext1">NFC</p>
+        <p id="nfcEasttitletext2">EAST</p>
+    </div>
+    <div id="nfcEastnormalbuttonleft" onMouseOver="toggleTrigger(24)" onMouseOut="toggleTrigger(25)"></div>
+    <img id="nfcEastlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="nfcEastnormalbuttonright" onMouseOver="toggleTrigger(26)" onMouseOut="toggleTrigger(27)"></div>
+    <img id="nfcEastlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="nfcEastcontent">
+    	<img id="nfcEast1" src="Images/nfcEast/nfcEast1.jpg">
+       <img id="nfcEast2" src="Images/nfcEast/nfcEast2.png">
+       <img id="nfcEast3" src="Images/nfcEast/nfcEast3.jpg">
+       <img id="nfcEast4" src="Images/nfcEast/nfcEast4.jpg">
+    </div>
+</div>
+<div id="afcWest" style="overflow:hidden">
+    <div id="afcWestnormalbuttonleft" onMouseOver="toggleTrigger(28)" onMouseOut="toggleTrigger(29)"></div>
+    <img id="afcWestlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="afcWestcontent">
+    	<img id="afcWest1" src="Images/afcWest/afcWest1.jpg">
+       <img id="afcWest2" src="Images/afcWest/afcWest2.jpg">
+       <img id="afcWest3" src="Images/afcWest/afcWest3.jpg">
+       <img id="afcWest4" src="Images/afcWest/afcWest4.gif">
+    </div>
+    <div id="adjustableafcWest">
+    	<div id="afcWestnormalbuttonright" onMouseOver="toggleTrigger(30)" onMouseOut="toggleTrigger(31)"></div>
+    	<img id="afcWestlightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="afcWesttitlediv">
+    		<p id="afcWesttitletext1">AFC</p>
+           <p id="afcWesttitletext2">WEST</p>
+    	</div>
+    </div>
+</div>
+<div id="nfcWest" style="overflow:hidden">
+	<div id="nfcWesttitlediv">
+    	<p id="nfcWesttitletext1">NFC</p>
+        <p id="nfcWesttitletext2">WEST</p>
+    </div>
+    <div id="nfcWestnormalbuttonleft" onMouseOver="toggleTrigger(32)" onMouseOut="toggleTrigger(33)"></div>
+    <img id="nfcWestlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="nfcWestnormalbuttonright" onMouseOver="toggleTrigger(34)" onMouseOut="toggleTrigger(35)"></div>
+    <img id="nfcWestlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="nfcWestcontent">
+    	<img id="nfcWest1" src="Images/nfcWest/nfcWest1.jpg">
+       <img id="nfcWest2" src="Images/nfcWest/nfcWest2.jpg">
+       <img id="nfcWest3" src="Images/nfcWest/nfcWest3.jpg">
+       <img id="nfcWest4" src="Images/nfcWest/nfcWest4.jpg">
+    </div>
+</div>
+<div id="bottombar" style="overflow:hidden">
+    <div id="adjustablebottombar">
+    	<div id="bottomaboutdiv"><p id="bottomabouttext">About</p></div>
+    	<div id="bottomcontactdiv"><p id="bottomcontacttext">Contact</p></div>
+    	<div id="bottomservicesdiv"><p id="bottomservicestext">Member Services</p></div>
+       <div id="bottomsitemapdiv"><p id="bottomsitemaptext">Site Map</p></div>
+    </div>
+</div>
+<script>
+	adjustPage();
+	findBarOffset();
+	adjustButtons();
+</script>
+</body>
+</html>

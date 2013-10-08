@@ -1,0 +1,622 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#pagebar
+{
+	background-color:#15154F;
+	height:75px;
+	width:auto;
+}
+
+#pagebartext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:50px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:0px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:10px;
+	z-index:2;	
+}
+
+#TopSports
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#TopSportsnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#TopSportsnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#TopSportslightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#TopSportscontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:830px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#TopSports1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#TopSports2
+{
+	position:relative;
+	top:0px;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#TopSports3
+{
+	position:relative;
+	top:0px;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#TopSports4
+{
+	position:relative;
+	top:0px;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#adjustableTopSports
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#TopSportsnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#TopSportsnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#TopSportslightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#TopSportstitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#TopSportstitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#TopSportstitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:18px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#CollegeSports
+{
+	background-color:#66a3d2;
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#CollegeSportstitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#CollegeSportstitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:7px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#CollegeSportstitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:18px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#CollegeSportsnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-220px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#CollegeSportsnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#CollegeSportslightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	z-index:0;
+}
+
+#CollegeSportsnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-664px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#CollegeSportsnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#CollegeSportslightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-884px;
+	z-index:0;
+}
+
+#CollegeSportscontent
+{
+	position:relative;
+	top:-1098px;
+	left:270px;
+	height:200px;
+	width:2000px;
+	z-index:0;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#CollegeSports1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#CollegeSports2
+{
+	position:relative;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#CollegeSports3
+{
+	position:relative;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#CollegeSports4
+{
+	position:relative;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#TeamSports
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#TeamSportsnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#TeamSportsnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#TeamSportslightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#TeamSportscontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:830px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#TeamSports1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#TeamSports2
+{
+	position:relative;
+	top:0px;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#TeamSports3
+{
+	position:relative;
+	top:0px;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#TeamSports4
+{
+	position:relative;
+	top:0px;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#adjustableTeamSports
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#TeamSportsnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#TeamSportsnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#TeamSportslightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#TeamSportstitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#TeamSportstitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:42px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#TeamSportstitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:18px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#IndividualSports
+{
+	background-color:#66a3d2;
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#IndividualSportstitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#IndividualSportstitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:39px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#IndividualSportstitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:18px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#IndividualSportsnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-220px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#IndividualSportsnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#IndividualSportslightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	z-index:0;
+}
+
+#IndividualSportsnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-664px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#IndividualSportsnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#IndividualSportslightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-884px;
+	z-index:0;
+}
+
+#IndividualSportscontent
+{
+	position:relative;
+	top:-1098px;
+	left:270px;
+	height:200px;
+	width:2000px;
+	z-index:0;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#IndividualSports1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#IndividualSports2
+{
+	position:relative;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#IndividualSports3
+{
+	position:relative;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#IndividualSports4
+{
+	position:relative;
+	left:18px;
+	width:200px;
+	height:200px;
+}

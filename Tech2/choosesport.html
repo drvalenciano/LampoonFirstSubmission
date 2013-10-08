@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Choose Sport</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/choosesport.css">
+<script src="JS/choosesport.js"></script>
+<script>
+window.onresize = function() {
+    adjustPage();
+}
+</script>
+</head>
+
+<body style="overflow-x:hidden">
+<!-- Top menu bar to be used on each page. -->
+<div id="topbar" style="overflow:hidden">
+	<!-- Small div used to contain company title, set hover color, and add link functionality. -->
+	<div id="companytitlediv">
+		<p id="companytitle">Sports Bar</p>
+    </div>
+    <!-- All portions of the top bar which should adjust with screen resizing. -->
+    <div id="adjustabletopbar">
+    	<form method="get" action="/search" id="search">
+  			<input id="searchbar" name="q" type="text" size="40" placeholder="Search..." 
+            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'"/>
+		</form>
+       <div id="signindiv">
+       		<p id="signintext">Sign In</p>
+       </div>
+       <div id="registerdiv">
+           <p id="registertext">Register</p>
+       </div>
+    </div>
+</div>
+<div id="navigationbar" style="overflow:hidden">
+	<div id="navsport1"><p id="navsport1text">NFL</p></div>
+    <div id="navsport2"><p id="navsport2text">MLB</p></div>
+    <div id="navsport3"><p id="navsport3text">NBA</p></div>
+    <div id="navsport4"><p id="navsport4text">NHL</p></div>
+    <div id="navsport5"><p id="navsport5text">NCAAF</p></div>
+    <div id="navmoresports"><p id="navmoresportstext">More Sports</p></div>
+    <div id="adjustablenavigationbar">
+    	<div id="navwatchlive"><p id="navwatchlivetext">Watch</p></div>
+    	<div id="navfantasy"><p id="navfantasytext">Fantasy</p></div>
+    	<div id="navradio"><p id="navradiotext">Radio</p></div>
+    </div>
+</div>
+<div id="ubar" style="overflow:hidden">
+	<div id="ubartitlediv">
+    	<p id="ubartitletext">U-BAR</p>
+    </div>
+    <div id="ubarnormalbuttonleft" onMouseOver="toggleTrigger(0)" onMouseOut="toggleTrigger(1)"></div>
+    <img id="ubarlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="ubarnormalbuttonright" onMouseOver="toggleTrigger(2)" onMouseOut="toggleTrigger(3)"></div>
+    <img id="ubarlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="ubarcontent">
+    	<img id="ubarpats" src="Images/UBar/patsubar.png">
+       <img id="ubarrobgronkowski" src="Images/UBar/robgronkowski.png">
+       <img id="ubartombrady" src="Images/UBar/tombrady.png">
+       <img id="ubarbillbelichick" src="Images/UBar/billbelichick.png">
+       <img id="ubarzachsudfeld" src="Images/UBar/zachsudfeld.png">
+       <img id="ubarredsox" src="Images/UBar/redsox.png">
+       <img id="ubardustinpedroia" src="Images/UBar/dustinpedroia.png">
+       <img id="ubarmikenapoli" src="Images/UBar/mikenapoli.png">
+       <img id="ubarnhl" src="Images/UBar/nhl.png">
+       <img id="ubarbostonbruins" src="Images/UBar/bostonbruins.png">
+       <img id="ubarbostonceltics" src="Images/UBar/bostonceltics.png">
+       <div id="ubardarkplus"></div>
+    </div>
+    <!--<div id="ubarcorrection"></div>-->
+</div>
+<div id="pagebar" style="overflow:hidden">
+	<p id="pagebartext">CHOOSE SPORT</p>
+</div>
+<div id="TopSports" style="overflow:hidden">
+    <div id="TopSportsnormalbuttonleft" onMouseOver="toggleTrigger(4)" onMouseOut="toggleTrigger(5)"></div>
+    <img id="TopSportslightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="TopSportscontent">
+    	<img id="TopSports1" src="Images/TopSports/TopSports1.gif">
+       <img id="TopSports2" src="Images/TopSports/TopSports2.gif">
+       <img id="TopSports3" src="Images/TopSports/TopSports3.jpg">
+       <img id="TopSports4" src="Images/TopSports/TopSports4.jpg">
+    </div>
+    <div id="adjustableTopSports">
+    	<div id="TopSportsnormalbuttonright" onMouseOver="toggleTrigger(6)" onMouseOut="toggleTrigger(7)"></div>
+    	<img id="TopSportslightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="TopSportstitlediv">
+    		<p id="TopSportstitletext1">TOP</p>
+           <p id="TopSportstitletext2">SPORTS</p>
+    	</div>
+    </div>
+    <!--<div id="TopSportscorrection"></div>-->
+</div>
+<div id="CollegeSports" style="overflow:hidden">
+	<div id="CollegeSportstitlediv">
+    	<p id="CollegeSportstitletext1">COLLEGE</p>
+        <p id="CollegeSportstitletext2">SPORTS</p>
+    </div>
+    <div id="CollegeSportsnormalbuttonleft" onMouseOver="toggleTrigger(8)" onMouseOut="toggleTrigger(9)"></div>
+    <img id="CollegeSportslightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="CollegeSportsnormalbuttonright" onMouseOver="toggleTrigger(10)" onMouseOut="toggleTrigger(11)"></div>
+    <img id="CollegeSportslightbuttonright" src="Images/lightbuttonright.png">
+    <div id="CollegeSportscontent">
+    	<img id="CollegeSports1" src="Images/CollegeSports/CollegeSports1.gif">
+       <img id="CollegeSports2" src="Images/CollegeSports/CollegeSports2.gif">
+       <img id="CollegeSports3" src="Images/CollegeSports/CollegeSports3.jpg">
+       <img id="CollegeSports4" src="Images/CollegeSports/CollegeSports4.png">
+    </div>
+    <!--<div id="CollegeSportscorrection"></div>-->
+</div>
+<div id="TeamSports" style="overflow:hidden">
+    <div id="TeamSportsnormalbuttonleft" onMouseOver="toggleTrigger(12)" onMouseOut="toggleTrigger(13)"></div>
+    <img id="TeamSportslightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="TeamSportscontent">
+    	<img id="TeamSports1" src="Images/TeamSports/TeamSports1.jpg">
+       <img id="TeamSports2" src="Images/TeamSports/TeamSports2.gif">
+       <img id="TeamSports3" src="Images/TeamSports/TeamSports3.png">
+       <img id="TeamSports4" src="Images/TeamSports/TeamSports4.png">
+    </div>
+    <div id="adjustableTeamSports">
+    	<div id="TeamSportsnormalbuttonright" onMouseOver="toggleTrigger(14)" onMouseOut="toggleTrigger(15)"></div>
+    	<img id="TeamSportslightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="TeamSportstitlediv">
+    		<p id="TeamSportstitletext1">TEAM</p>
+           <p id="TeamSportstitletext2">SPORTS</p>
+    	</div>
+    </div>
+</div>
+<div id="IndividualSports" style="overflow:hidden">
+	<div id="IndividualSportstitlediv">
+    	<p id="IndividualSportstitletext1">SOLO</p>
+        <p id="IndividualSportstitletext2">SPORTS</p>
+    </div>
+    <div id="IndividualSportsnormalbuttonleft" onMouseOver="toggleTrigger(16)" onMouseOut="toggleTrigger(17)"></div>
+    <img id="IndividualSportslightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="IndividualSportsnormalbuttonright" onMouseOver="toggleTrigger(18)" onMouseOut="toggleTrigger(19)"></div>
+    <img id="IndividualSportslightbuttonright" src="Images/lightbuttonright.png">
+    <div id="IndividualSportscontent">
+    	<img id="IndividualSports1" src="Images/IndividualSports/IndividualSports1.jpg">
+       <img id="IndividualSports2" src="Images/IndividualSports/IndividualSports2.gif">
+       <img id="IndividualSports3" src="Images/IndividualSports/IndividualSports3.jpg">
+       <img id="IndividualSports4" src="Images/IndividualSports/IndividualSports4.jpg">
+    </div>
+</div>
+<div id="bottombar" style="overflow:hidden">
+    <div id="adjustablebottombar">
+    	<div id="bottomaboutdiv"><p id="bottomabouttext">About</p></div>
+    	<div id="bottomcontactdiv"><p id="bottomcontacttext">Contact</p></div>
+    	<div id="bottomservicesdiv"><p id="bottomservicestext">Member Services</p></div>
+       <div id="bottomsitemapdiv"><p id="bottomsitemaptext">Site Map</p></div>
+    </div>
+</div>
+<script>
+	adjustPage();
+	findBarOffset();
+	adjustButtons();
+</script>
+</body>
+</html>
+

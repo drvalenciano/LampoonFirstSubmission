@@ -1,0 +1,897 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#navspecificsport
+{
+	background-color:#15154F;
+	height:75px;
+	width:auto;
+}
+
+#navspecificsport1
+{
+	width:106px;
+	height:75px;	
+}
+
+#navspecificsport1text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport1:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport2
+{
+	position:relative;
+	top:-75px;
+	left:106px;
+	width:134px;
+	height:75px;	
+}
+
+#navspecificsport2text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport2:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport3
+{
+	position:relative;
+	top:-150px;
+	left:240px;
+	width:140px;
+	height:75px;	
+}
+
+#navspecificsport3text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport3:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport4
+{
+	position:relative;
+	top:-225px;
+	left:380px;
+	width:86px;
+	height:75px;	
+}
+
+#navspecificsport4text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport4:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport5
+{
+	position:relative;
+	top:-300px;
+	left:466px;
+	width:106px;
+	height:75px;	
+}
+
+#navspecificsport5text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport5:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport6
+{
+	position:relative;
+	top:-375px;
+	left:572px;
+	width:240px;
+	height:75px;	
+}
+
+#navspecificsport6text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport6:hover
+{
+	background-color:#0B61a4;
+}
+
+#adjustablenavspecificbar
+{
+	position:relative;
+	top:-450px;
+	left:598px;
+	width:308px;
+	height:75px;
+	max-width:308px;
+}
+
+#navspecificrumors
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:116px;
+	height:75px;	
+}
+
+#navspecificrumorstext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificrumors:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificfantasy
+{
+	position:relative;
+	top:-75px;
+	left:116px;
+	width:114px;
+	height:75px;	
+}
+
+#navspecificfantasytext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificfantasy:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecifictickets
+{
+	position:relative;
+	top:-150px;
+	left:230px;
+	width:106px;
+	height:75px;	
+}
+
+#navspecificticketstext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecifictickets:hover
+{
+	background-color:#0B61a4;
+}
+
+#pagebar
+{
+	background-color:#15154F;
+	height:75px;
+	width:auto;
+}
+
+#pagebartext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:50px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:0px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:10px;
+	z-index:2;	
+}
+
+#scoreboard
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#scoreboardnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#scoreboardnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#scoreboardlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#scoreboardcontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:1664px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#scoreboard1
+{
+	position:relative;
+	width:909px;
+	height:200px;
+}
+
+#scoreboard2
+{
+	position:relative;
+	top:-105px;
+	left:6px;
+	width:280px;
+	height:95px;
+}
+
+#scoreboard3
+{
+	position:relative;
+	top:0px;
+	left:-278px;
+	width:280px;
+	height:95px;
+}
+
+#scoreboard4
+{
+	position:relative;
+	top:-203px;
+	left:1210px;
+	width:455px;
+	height:200px;
+}
+
+#adjustablescoreboard
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#scoreboardnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#scoreboardnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#scoreboardlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#scoreboardtitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#scoreboardtitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:28px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#scoreboardtitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:28px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#topstories
+{
+	background-color:#66a3d2;
+	height:440px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#topstoriestitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:440px;
+	width:260px;
+	z-index:2;
+}
+
+#topstoriestitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:53px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:182px;
+	z-index:2;
+}
+
+#topstoriestitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:17px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:152px;
+	z-index:2;
+}
+
+#topstoriesnormalbuttonleft
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	background-image:url(../Images/darkbuttonleftlong.png);
+	z-index:2;
+}
+
+#topstoriesnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleftlong.png);
+}
+
+#topstorieslightbuttonleft
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	left:180px;
+	top:-880px;
+	z-index:0;
+}
+
+#topstoriesnormalbuttonright
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	top:-1324px;
+	background-image:url(../Images/darkbuttonrightlong.png);
+	z-index:2;
+}
+
+#topstoriesnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonrightlong.png);
+}
+
+#topstorieslightbuttonright
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	top:-1764px;
+	z-index:0;
+}
+
+#topstoriescontent
+{
+	position:relative;
+	top:-2198px;
+	left:270px;
+	height:420px;
+	width:2270px;
+	z-index:0;
+	max-height:420px;
+	overflow:hidden;
+}
+
+#topstoriessuperbowl
+{
+	position:relative;
+	left:0px;
+}
+
+#topstoriesbruinspenguins
+{
+	position:relative;
+	left:6px;
+}
+
+#headlines
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#headlinesnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#headlinesnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#headlineslightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#headlinescontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:1250px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#headline1div
+{
+	position:relative;
+	width:200px;
+	height:200px;
+	background-color:#15154F;
+}
+
+#headline2div
+{
+	position:relative;
+	top:-200px;
+	left:210px;
+	width:200px;
+	height:200px;
+	background-color:#15154F;
+}
+
+#headline3div
+{
+	position:relative;
+	top:-400px;
+	left:420px;
+	width:200px;
+	height:200px;
+	background-color:#15154F;
+}
+
+#headline4div
+{
+	position:relative;
+	top:-600px;
+	left:630px;
+	width:200px;
+	height:200px;
+	background-color:#15154F;
+}
+
+#headline5div
+{
+	position:relative;
+	top:-800px;
+	left:840px;
+	width:200px;
+	height:200px;
+	background-color:#15154F;
+}
+
+#headline6div
+{
+	position:relative;
+	top:-1000px;
+	left:1050px;
+	width:200px;
+	height:200px;
+	background-color:#15154F;
+}
+
+.headlines
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	padding:17px;
+	color:#DAE5F7;
+	width:auto;
+	height:75px;
+	position:relative;
+	z-index:0;
+}
+
+#adjustableheadlines
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#headlinesnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#headlinesnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#headlineslightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#headlinestitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#headlinestitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:20px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#headlinestitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:38px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#topvideos
+{
+	background-color:#66a3d2;
+	height:440px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#topvideostitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:440px;
+	width:260px;
+	z-index:2;
+}
+
+#topvideostitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:53px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:182px;
+	z-index:2;
+}
+
+#topvideostitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:26px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:152px;
+	z-index:2;
+}
+
+#topvideosnormalbuttonleft
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	background-image:url(../Images/darkbuttonleftlong.png);
+	z-index:2;
+}
+
+#topvideosnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleftlong.png);
+}
+
+#topvideoslightbuttonleft
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	left:180px;
+	top:-880px;
+	z-index:0;
+}
+
+#topvideosnormalbuttonright
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	top:-1324px;
+	background-image:url(../Images/darkbuttonrightlong.png);
+	z-index:2;
+}
+
+#topvideosnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonrightlong.png);
+}
+
+#topvideoslightbuttonright
+{
+	width:80px;
+	height:440px;
+	position:relative;
+	top:-1764px;
+	z-index:0;
+}
+
+#topvideoscontent
+{
+	position:relative;
+	top:-2198px;
+	left:270px;
+	height:420px;
+	width:1700px;
+	z-index:0;
+	max-height:420px;
+	overflow:hidden;
+}
+
+#topvideosNFL1
+{
+	position:relative;
+	left:0px;
+}
+
+#topvideosNFL2
+{
+	position:relative;
+	left:6px;
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NBA</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<link rel="stylesheet" type="text/css" href="CSS/nba.css">
+<script src="JS/nba.js"></script>
+<script>
+window.onresize = function() {
+    adjustPage();
+}
+</script>
+</head>
+
+<body>
+<!-- Top menu bar to be used on each page. -->
+<div id="topbar" style="overflow:hidden">
+	<!-- Small div used to contain company title, set hover color, and add link functionality. -->
+	<div id="companytitlediv">
+		<p id="companytitle">Sports Bar</p>
+    </div>
+    <!-- All portions of the top bar which should adjust with screen resizing. -->
+    <div id="adjustabletopbar">
+    	<form method="get" action="/search" id="search">
+  			<input id="searchbar" name="q" type="text" size="40" placeholder="Search..." 
+            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'"/>
+		</form>
+       <div id="signindiv">
+       		<p id="signintext">Sign In</p>
+       </div>
+       <div id="registerdiv">
+           <p id="registertext">Register</p>
+       </div>
+    </div>
+</div>
+<div id="navspecificsport" style="overflow:hidden">
+	<div id="navspecificsport1"><p id="navspecificsport1text">Scores</p></div>
+    <div id="navspecificsport2"><p id="navspecificsport2text">Schedule</p></div>
+    <div id="navspecificsport3"><p id="navspecificsport3text">Standings</p></div>
+    <div id="navspecificsport4"><p id="navspecificsport4text">Stats</p></div>
+    <div id="navspecificsport5"><p id="navspecificsport5text">Trades</p></div>
+    <div id="navspecificsport6"><p id="navspecificsport6text">Choose NFL Team</p></div>
+    <div id="adjustablenavspecificbar">
+    	<div id="navspecificrumors"><p id="navspecificrumorstext">Rumors</p></div>
+    	<div id="navspecificfantasy"><p id="navspecificfantasytext">Fantasy</p></div>
+    	<div id="navspecifictickets"><p id="navspecificticketstext">Tickets</p></div>
+    </div>
+</div>
+<div id="ubar" style="overflow:hidden">
+	<div id="ubartitlediv">
+    	<p id="ubartitletext">U-BAR</p>
+    </div>
+    <div id="ubarnormalbuttonleft" onMouseOver="toggleTrigger(0)" onMouseOut="toggleTrigger(1)"></div>
+    <img id="ubarlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="ubarnormalbuttonright" onMouseOver="toggleTrigger(2)" onMouseOut="toggleTrigger(3)"></div>
+    <img id="ubarlightbuttonright" src="Images/lightbuttonright.png">
+    <div id="ubarcontent">
+    	<img id="ubarpats" src="Images/UBar/patsubar.png">
+       <img id="ubarrobgronkowski" src="Images/UBar/robgronkowski.png">
+       <img id="ubartombrady" src="Images/UBar/tombrady.png">
+       <img id="ubarbillbelichick" src="Images/UBar/billbelichick.png">
+       <img id="ubarzachsudfeld" src="Images/UBar/zachsudfeld.png">
+       <img id="ubarredsox" src="Images/UBar/redsox.png">
+       <img id="ubardustinpedroia" src="Images/UBar/dustinpedroia.png">
+       <img id="ubarmikenapoli" src="Images/UBar/mikenapoli.png">
+       <img id="ubarnhl" src="Images/UBar/nhl.png">
+       <img id="ubarbostonbruins" src="Images/UBar/bostonbruins.png">
+       <img id="ubarbostonceltics" src="Images/UBar/bostonceltics.png">
+       <div id="ubardarkplus"></div>
+    </div>
+    <!--<div id="ubarcorrection"></div>-->
+</div>
+<div id="pagebar" style="overflow:hidden">
+	<p id="pagebartext">NATIONAL BASKETBALL ASSOCIATION<strong></strong></p>
+</div>
+<div id="scoreboard" style="overflow:hidden">
+    <div id="scoreboardnormalbuttonleft" onMouseOver="toggleTrigger(4)" onMouseOut="toggleTrigger(5)"></div>
+    <img id="scoreboardlightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="scoreboardcontent">
+    	<img id="scoreboard1" src="Images/nbascoreboard.png">
+    </div>
+    <div id="adjustablescoreboard">
+    	<div id="scoreboardnormalbuttonright" onMouseOver="toggleTrigger(6)" onMouseOut="toggleTrigger(7)"></div>
+    	<img id="scoreboardlightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="scoreboardtitlediv">
+    		<p id="scoreboardtitletext1">SCORE</p>
+           <p id="scoreboardtitletext2">BOARD</p>
+    	</div>
+    </div>
+    <!--<div id="scoreboardcorrection"></div>-->
+</div>
+<div id="topstories" style="overflow:hidden">
+	<div id="topstoriestitlediv">
+    	<p id="topstoriestitletext1">TOP</p>
+      	<p id="topstoriestitletext2">STORIES</p>
+    </div>
+    <div id="topstoriesnormalbuttonleft" onMouseOver="toggleTrigger(8)" onMouseOut="toggleTrigger(9)"></div>
+    <img id="topstorieslightbuttonleft" src="Images/lightbuttonleftlong.png">
+    <div id="topstoriesnormalbuttonright" onMouseOver="toggleTrigger(10)" onMouseOut="toggleTrigger(11)"></div>
+    <img id="topstorieslightbuttonright" src="Images/lightbuttonrightlong.png">
+    <div id="topstoriescontent">
+   	  <img id="topstoriessuperbowl" src="Images/TopStoriesNBa/TopStories1NBa.jpg">
+       <img id="topstoriesbruinspenguins" src="Images/TopStoriesNBa/TopStories2NBa.jpg">
+    </div>
+    <!--<div id="topstoriescorrection"></div>-->
+</div>
+<div id="headlines" style="overflow:hidden">
+    <div id="headlinesnormalbuttonleft" onMouseOver="toggleTrigger(12)" onMouseOut="toggleTrigger(13)"></div>
+    <img id="headlineslightbuttonleft" src="Images/lightbuttonleft.png">
+    <div id="headlinescontent">
+    	<div id="headline1div"><p class="headlines">Panthers' Smith rips ref: 'He was complete, utter garbage'.</p></div>
+        <div id="headline2div"><p class="headlines">Freeman to vie for Vikes' job; to sit in on game this Sunday.</p></div>
+        <div id="headline3div"><p class="headlines">Eli to critics: 'I don't think I've been playing lousy'.</p></div>
+        <div id="headline4div"><p class="headlines">Cowboys support Romo after Sunday's decisive loss.</p></div>
+        <div id="headline5div"><p class="headlines">Raiola accused of verbal abuse of UW band, sources claim.</p></div>
+        <div id="headline6div"><p class="headlines">NFL to meet with Indian tribe over Redskins team title.</p></div>
+    </div>
+    <div id="adjustableheadlines">
+    	<div id="headlinesnormalbuttonright" onMouseOver="toggleTrigger(14)" onMouseOut="toggleTrigger(15)"></div>
+    	<img id="headlineslightbuttonright" src="Images/lightbuttonright.png">
+    	<div id="headlinestitlediv">
+    		<p id="headlinestitletext1">RECENT</p>
+           <p id="headlinestitletext2">NEWS</p>
+    	</div>
+    </div>
+    <!--<div id="headlinescorrection"></div>-->
+</div>
+<div id="topvideos" style="overflow:hidden">
+	<div id="topvideostitlediv">
+    	<p id="topvideostitletext1">TOP</p>
+      	<p id="topvideostitletext2">VIDEOS</p>
+    </div>
+    <div id="topvideosnormalbuttonleft" onMouseOver="toggleTrigger(16)" onMouseOut="toggleTrigger(17)"></div>
+    <img id="topvideoslightbuttonleft" src="Images/lightbuttonleftlong.png">
+    <div id="topvideosnormalbuttonright" onMouseOver="toggleTrigger(18)" onMouseOut="toggleTrigger(19)"></div>
+    <img id="topvideoslightbuttonright" src="Images/lightbuttonrightlong.png">
+    <div id="topvideoscontent">
+    	<img id="topvideosNFL1" src="Images/TopVideosNBa/TopVideosNBa1.png">
+       <img id="topvideosNFL2" src="Images/TopVideosNBa/TopVideosNBa2.jpg">
+    </div>
+    <!--<div id="topvideoscorrection"></div>-->
+</div>
+<div id="bottombar" style="overflow:hidden">
+    <div id="adjustablebottombar">
+    	<div id="bottomaboutdiv"><p id="bottomabouttext">About</p></div>
+    	<div id="bottomcontactdiv"><p id="bottomcontacttext">Contact</p></div>
+    	<div id="bottomservicesdiv"><p id="bottomservicestext">Member Services</p></div>
+       <div id="bottomsitemapdiv"><p id="bottomsitemaptext">Site Map</p></div>
+    </div>
+</div>
+<script>
+	adjustPage();
+	findBarOffset();
+	adjustButtons();
+</script>
+</body>
+</html>

@@ -1,0 +1,1495 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#navspecificsport
+{
+	background-color:#15154F;
+	height:75px;
+	width:auto;
+}
+
+#navspecificsport1
+{
+	width:106px;
+	height:75px;	
+}
+
+#navspecificsport1text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport1:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport2
+{
+	position:relative;
+	top:-75px;
+	left:106px;
+	width:134px;
+	height:75px;	
+}
+
+#navspecificsport2text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport2:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport3
+{
+	position:relative;
+	top:-150px;
+	left:240px;
+	width:140px;
+	height:75px;	
+}
+
+#navspecificsport3text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport3:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport4
+{
+	position:relative;
+	top:-225px;
+	left:380px;
+	width:86px;
+	height:75px;	
+}
+
+#navspecificsport4text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport4:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport5
+{
+	position:relative;
+	top:-300px;
+	left:466px;
+	width:106px;
+	height:75px;	
+}
+
+#navspecificsport5text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport5:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificsport6
+{
+	position:relative;
+	top:-375px;
+	left:572px;
+	width:240px;
+	height:75px;	
+}
+
+#navspecificsport6text
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificsport6:hover
+{
+	background-color:#0B61a4;
+}
+
+#adjustablenavspecificbar
+{
+	position:relative;
+	top:-450px;
+	left:598px;
+	width:308px;
+	height:75px;
+	max-width:308px;
+}
+
+#navspecificrumors
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:116px;
+	height:75px;	
+}
+
+#navspecificrumorstext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificrumors:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecificfantasy
+{
+	position:relative;
+	top:-75px;
+	left:116px;
+	width:114px;
+	height:75px;	
+}
+
+#navspecificfantasytext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecificfantasy:hover
+{
+	background-color:#0B61a4;
+}
+
+#navspecifictickets
+{
+	position:relative;
+	top:-150px;
+	left:230px;
+	width:106px;
+	height:75px;	
+}
+
+#navspecificticketstext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:28px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:14px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:22px;
+	background-color:transparent;		
+}
+
+#navspecifictickets:hover
+{
+	background-color:#0B61a4;
+}
+
+#pagebar
+{
+	background-color:#15154F;
+	height:75px;
+	width:auto;
+}
+
+#pagebartext
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:50px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:0px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:10px;
+	z-index:2;	
+}
+
+#afcNorth
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#afcNorthnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#afcNorthnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#afcNorthlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcNorthcontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:830px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#afcNorth1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#afcNorth2
+{
+	position:relative;
+	top:0px;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#afcNorth3
+{
+	position:relative;
+	top:0px;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#afcNorth4
+{
+	position:relative;
+	top:0px;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#adjustableafcNorth
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#afcNorthnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#afcNorthnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#afcNorthlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcNorthtitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#afcNorthtitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#afcNorthtitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:29px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcNorth
+{
+	background-color:#66a3d2;
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#nfcNorthtitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#nfcNorthtitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#nfcNorthtitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:29px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcNorthnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-220px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#nfcNorthnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#nfcNorthlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	z-index:0;
+}
+
+#nfcNorthnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-664px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#nfcNorthnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#nfcNorthlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-884px;
+	z-index:0;
+}
+
+#nfcNorthcontent
+{
+	position:relative;
+	top:-1098px;
+	left:270px;
+	height:200px;
+	width:2000px;
+	z-index:0;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#nfcNorth1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#nfcNorth2
+{
+	position:relative;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#nfcNorth3
+{
+	position:relative;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#nfcNorth4
+{
+	position:relative;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#afcSouth
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#afcSouthnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#afcSouthnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#afcSouthlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcSouthcontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:830px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#afcSouth1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#afcSouth2
+{
+	position:relative;
+	top:0px;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#afcSouth3
+{
+	position:relative;
+	top:0px;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#afcSouth4
+{
+	position:relative;
+	top:0px;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#adjustableafcSouth
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#afcSouthnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#afcSouthnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#afcSouthlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcSouthtitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#afcSouthtitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#afcSouthtitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:29px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcSouth
+{
+	background-color:#66a3d2;
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#nfcSouthtitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#nfcSouthtitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#nfcSouthtitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:29px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcSouthnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-220px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#nfcSouthnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#nfcSouthlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	z-index:0;
+}
+
+#nfcSouthnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-664px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#nfcSouthnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#nfcSouthlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-884px;
+	z-index:0;
+}
+
+#nfcSouthcontent
+{
+	position:relative;
+	top:-1098px;
+	left:270px;
+	height:200px;
+	width:2000px;
+	z-index:0;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#nfcSouth1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#nfcSouth2
+{
+	position:relative;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#nfcSouth3
+{
+	position:relative;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#nfcSouth4
+{
+	position:relative;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#afcEast
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#afcEastnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#afcEastnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#afcEastlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcEastcontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:830px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#afcEast1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#afcEast2
+{
+	position:relative;
+	top:0px;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#afcEast3
+{
+	position:relative;
+	top:0px;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#afcEast4
+{
+	position:relative;
+	top:0px;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#adjustableafcEast
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#afcEastnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#afcEastnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#afcEastlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcEasttitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#afcEasttitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#afcEasttitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:45px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcEast
+{
+	background-color:#66a3d2;
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#nfcEasttitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#nfcEasttitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#nfcEasttitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:45px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcEastnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-220px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#nfcEastnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#nfcEastlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	z-index:0;
+}
+
+#nfcEastnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-664px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#nfcEastnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#nfcEastlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-884px;
+	z-index:0;
+}
+
+#nfcEastcontent
+{
+	position:relative;
+	top:-1098px;
+	left:270px;
+	height:200px;
+	width:2000px;
+	z-index:0;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#nfcEast1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#nfcEast2
+{
+	position:relative;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#nfcEast3
+{
+	position:relative;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#nfcEast4
+{
+	position:relative;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#afcWest
+{
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#afcWestnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#afcWestnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#afcWestlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcWestcontent
+{
+	position:relative;
+	top:-435px;
+	left:90px;
+	height:200px;
+	width:830px;
+	z-index:1;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#afcWest1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#afcWest2
+{
+	position:relative;
+	top:0px;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#afcWest3
+{
+	position:relative;
+	top:0px;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#afcWest4
+{
+	position:relative;
+	top:0px;
+	left:18px;
+	width:200px;
+	height:200px;
+}
+
+#adjustableafcWest
+{
+	position:relative;
+	top:-644px;
+	left:0px;
+	width:270px;
+	height:220px;
+	max-width:270px;
+}
+
+#afcWestnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:0px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#afcWestnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#afcWestlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:0px;
+	top:-220px;
+	z-index:0;
+}
+
+#afcWesttitlediv
+{
+	position:relative;
+	left:80px;
+	top:-444px;
+	background-color:#66a3d2;
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#afcWesttitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#afcWesttitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:38px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcWest
+{
+	background-color:#66a3d2;
+	height:220px;
+	width:auto;
+	position:relative;
+	top:0px;
+}
+
+#nfcWesttitlediv
+{
+	position:relative;
+	background-color:rgb(19, 27, 138);
+	height:220px;
+	width:260px;
+	z-index:2;
+}
+
+#nfcWesttitletext1
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:54px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:67px;
+	z-index:2;
+}
+
+#nfcWesttitletext2
+{
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	font-size:40px;
+	font-weight:lighter;
+	text-align:left;
+	color:#DAE5F7;
+	padding-left:38px;
+	width:auto;
+	height:75px;
+	position:relative;
+	top:37px;
+	z-index:2;
+}
+
+#nfcWestnormalbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-220px;
+	background-image:url(../Images/darkbuttonleft.png);
+	z-index:2;
+}
+
+#nfcWestnormalbuttonleft:hover
+{
+	background-image:url(../Images/normalbuttonleft.png);
+}
+
+#nfcWestlightbuttonleft
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	left:180px;
+	top:-440px;
+	z-index:0;
+}
+
+#nfcWestnormalbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-664px;
+	background-image:url(../Images/darkbuttonright.png);
+	z-index:2;
+}
+
+#nfcWestnormalbuttonright:hover
+{
+	background-image:url(../Images/normalbuttonright.png);
+}
+
+#nfcWestlightbuttonright
+{
+	width:80px;
+	height:220px;
+	position:relative;
+	top:-884px;
+	z-index:0;
+}
+
+#nfcWestcontent
+{
+	position:relative;
+	top:-1098px;
+	left:270px;
+	height:200px;
+	width:2000px;
+	z-index:0;
+	max-height:200px;
+	overflow:hidden;
+}
+
+#nfcWest1
+{
+	position:relative;
+	width:200px;
+	height:200px;
+}
+
+#nfcWest2
+{
+	position:relative;
+	left:6px;
+	width:200px;
+	height:200px;
+}
+
+#nfcWest3
+{
+	position:relative;
+	left:12px;
+	width:200px;
+	height:200px;
+}
+
+#nfcWest4
+{
+	position:relative;
+	left:18px;
+	width:200px;
+	height:200px;
+}
